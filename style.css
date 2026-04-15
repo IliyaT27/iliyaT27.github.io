@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+    background-image: url(backgroundlandscape.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: #000000;
+}
+
+.phone {
+    font-size: 24px;
+    color: green;
+    margin: 20px 0;
+}
+        
+.mail {
+    font-size: 18px;
+    color: blue;
+    margin: 20px 0;
+}
+
+.name {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+/* @media (max-width: 768px), (orientation: portrait) {
+    body {
+        background-image: url(backgroundportrait.jpg);
+    }
+} */
+
+@media (max-width: 768px), (orientation: portrait) {
+    .box {
+    background: white;
+    padding: 30px 100px 70px 100px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    }
+    .phone {
+    font-size: 46px;
+    color: green;
+    margin: 40px 0;
+    }
+        
+    .mail {
+    font-size: 38px;
+    color: blue;
+    margin: 40px 0;
+    }
+
+    .name {
+    font-size: 38px;
+    color: #333;
+    margin: 40px 0;
+    }
+    h1{
+    font-size: 54px;
+    }
+}
