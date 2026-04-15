@@ -53,13 +53,11 @@ button:hover {
     background: darkgreen;
 }
 
-/* @media (max-width: 768px), (orientation: portrait) {
+@media (max-width: 768px), (orientation: portrait) {
     body {
         background-image: url(backgroundportrait.jpg);
     }
-} */
-
-@media (max-width: 768px), (orientation: portrait) {
+    
     .box {
     background: white;
     padding: 30px 100px 70px 100px;
@@ -67,6 +65,7 @@ button:hover {
     max-width: 600px;
     margin: auto;
     }
+
     .phone {
     font-size: 46px;
     color: green;
@@ -84,7 +83,19 @@ button:hover {
     color: #333;
     margin: 40px 0;
     }
+
     h1{
     font-size: 54px;
     }
+
+    button {
+    padding: 30px 50px;
+    font-size: 38px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+
 }
