@@ -42,8 +42,8 @@ h1 {
 button {
     padding: 15px 25px;
     font-size: 18px;
-    background: white;
-    color: green;
+    background: green;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
